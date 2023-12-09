@@ -1,0 +1,123 @@
+.main{
+    background-color: rgb(203, 233, 203);
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+    padding: 50px;
+}
+.cop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+    background-color: transparent;
+    
+}
+.cop button{
+    border-radius: 30px;
+    padding: 10px;
+    width: 60%;
+    font-weight: bo;
+}
+.cop1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:lightgray ;
+    padding: 10px;
+    font-size: 25px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px dimgray;
+
+}
+.cop2{
+    display: grid;
+
+    gap: 3px;
+    padding: 10px;
+    background-color: white;
+    font-size: 15px;
+    width: 100%;
+    border-left: green solid 8px;
+    margin-top: 10px;
+}
+.cop2 p{
+    color: brown;
+}
+.q{
+    color: red;
+}
+.q1{
+    color: blue;
+    font-size: 15px;
+}
+.q2
+{
+    color: black;
+}
+.cop1 button{
+
+    background-color: green;
+    padding: 10px;
+    width: 40%;
+    border-radius: 30px;
+}
+.cop3{
+    display: grid;
+
+    gap: 3px;
+    padding: 10px;
+    background-color: white;
+    font-size: 15px;
+    width: 100%;
+    border-left: green solid 8px;
+    margin-top: 10px;
+}
+.q3{
+    color: brown;
+}
+
+
+@media (max-width: 700px) {
+    .main{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cop{
+        border-bottom: white solid 3px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .cop1{
+        width:90% ;
+       
+    }
+
+    .cop1 button{
+        width: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .main{
+        flex-direction: column;
+        gap: 20px;
+        font-size: 40px;
+    }
+    .cop{
+        border-bottom: white solid 3px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .cop1{
+        width:120% ;
+       
+    }
+
+    .cop1 button{
+        width: 50%;
+    }
+}

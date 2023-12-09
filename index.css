@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.main_nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+.navt{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background-color: transparent;
+}
+.navt button{
+    background-color: transparent;
+    padding: 20px;
+    padding-right: 20px;
+    border: none;
+    
+}
+.navt button:hover{
+    background-color: green;
+    color: white;
+
+}
+.test{
+    background-color:transparent;
+    color: green;
+    font-size: 30px;
+}
+.inputt{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+}
+.inputt input{
+    padding: 5px;
+    border-radius: 20px;
+    width: 25vh;
+}
+.e{
+    align-items: center;
+    position: absolute;
+    right: 0;
+    padding: 4.8px;
+
+}
+.e:hover{
+    background-color:lightblue;
+    border-radius: 50%;
+}
+
+@media (max-width:700px) {
+    .inputt input{
+        display: none;
+    }
+    .inputt {
+        margin-left: 20px;
+    }
+
+    .navt button{
+        padding: 10px;
+        font-size: 10px;
+    }
+    .remov{
+        display: none;
+    }
+    .navt{
+        padding: 5px;
+        margin-left: 20px;
+    }
+}

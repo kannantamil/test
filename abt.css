@@ -1,0 +1,106 @@
+.abt{
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    overflow-x: auto;
+    width: 100%;
+
+
+}
+.abt button{
+   
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+   padding: 10px;
+  
+}
+.btn{
+    color: white;
+}
+.abt button:hover{
+    background-color: rgb(70, 58, 58);
+}
+.abtt{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    min-height: 80vh;
+    color: white;
+    
+}
+.cc{
+    font-size: 70px;
+}
+.bb{
+    font-size: 22px;
+}
+.c{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.c input{
+    padding: 14.5px;
+    width: 50vh;
+    border-radius: 30px;
+    border: green solid 1px;
+}
+.c1{
+
+    width: 9vh;
+    position: absolute;
+    color: #000;
+    right: 0;
+    padding: 15px;
+
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+    background-color: green;
+}
+@media (max-width:800px) {
+    .abt{
+        padding: 2px;
+    }
+    .abt button{
+        font-size: 10px;
+        
+    }
+
+    
+}
+
+@media (max-width:500px) {
+    .abt{
+        padding: 2px;
+    }
+    .abt button{
+        font-size: 10px;
+        
+    }
+    .c{
+        width: 70%;
+    }
+    .cc{
+        font-size: 40px;
+    }
+    .c1{
+        width: 6vh;
+    }
+    .main2 h1{
+        font-size: 35px;
+    }
+    .main2 p {
+        font-size: 15px;
+        
+    }
+    .bb{
+        font-size: 15px;
+    }
+        
+}
